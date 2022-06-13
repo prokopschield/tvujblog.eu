@@ -1,36 +1,36 @@
 {
-	"name": "tvujblog.eu",
-	"description": "a blogging platform",
-	"version": "0.0.0",
-	"main": "lib/index.js",
-	"bin": {
-		"tvujblog.eu": "lib/cli.js"
-	},
-	"scripts": {
-		"start": "node lib/cli",
-		"test": "npx nslibmgr test",
-		"lint": "eslint -c .eslintrc.json --ext .ts ./src"
-	},
-	"author": "Prokop Schield",
-	"devDependencies": {
-		"@types/dompurify": "^2.3.3",
-		"@types/jsdom": "^16.2.14",
-		"@types/mime-types": "^2.1.1",
-		"@types/node": ">=14",
-		"@types/prettier": "^2.6.3",
-		"@typescript-eslint/parser": "^5.27.1",
-		"eslint": "^8.17.0",
-		"eslint-plugin-lvksh": "^1.4.1",
-		"typescript": "^4.7.3"
-	},
-	"keywords": [],
-	"license": "GPL-3.0-or-later",
-	"dependencies": {
-		"@prokopschield/nstore": "^0.1.0-6",
-		"doge-config": "^0.3.18",
-		"dompurify": "^2.3.8",
-		"insta-db": "^0.1.0-1",
-		"puppeteer-core": "^14.3.0",
-		"require-gpl": "^0.1.2"
-	}
+    "name": "tvujblog.eu",
+    "description": "a blogging platform",
+    "version": "0.0.0",
+    "main": "lib/index.js",
+    "bin": {
+        "tvujblog.eu": "lib/cli.js"
+    },
+    "scripts": {
+        "start": "node lib/cli",
+        "test": "npx nslibmgr test",
+        "lint": "eslint -c .eslintrc.json --ext .ts ./src"
+    },
+    "author": "Prokop Schield",
+    "devDependencies": {
+        "@types/dompurify": "^2.3.3",
+        "@types/jsdom": "^16.2.14",
+        "@types/mime-types": "^2.1.1",
+        "@types/node": ">=14",
+        "@types/prettier": "^2.6.3",
+        "@typescript-eslint/parser": "^5.27.1",
+        "eslint": "^8.17.0",
+        "eslint-plugin-lvksh": "^1.4.1",
+        "typescript": "^4.7.3"
+    },
+    "keywords": [],
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "@prokopschield/nstore": "^0.1.0-6",
+        "doge-config": "^0.3.18",
+        "dompurify": "^2.3.8",
+        "insta-db": "^0.1.0-1",
+        "puppeteer-core": "^14.3.0",
+        "require-gpl": "^0.1.2"
+    }
 }
